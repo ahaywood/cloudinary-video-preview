@@ -44,7 +44,6 @@ const Video = ({ video }: VideoProps) => {
       <AdvancedVideo
         className="absolute inset-0 z-10 w-full h-auto rounded-md"
         ref={playerRef}
-        controls
         muted
         cldVid={cld
           .video(video.id)
